@@ -1,20 +1,17 @@
-## Descrição Concisa do Projeto Flet
+Este projeto demonstra a criação de um aplicativo desktop de cadastro de pessoas utilizando a biblioteca Flet, que permite o desenvolvimento rápido de interfaces gráficas multiplataforma com Python, inspiradas no Flutter. O aplicativo oferece uma interface amigável para o usuário realizar o cadastro, login e visualização de dados, com persistência em um banco de dados SQLite, gerenciado pelo DB Browser for SQLite.
 
-**Projeto Flet: Aplicativo de Cadastro de Pessoas**
+Funcionalidades Principais:
 
-Este aplicativo, desenvolvido com a framework Flet, oferece uma interface intuitiva para o cadastro de pessoas. A aplicação possui as seguintes funcionalidades:
+Tela de Login: Autenticação de usuários com validação de credenciais armazenadas no banco de dados.
+Cadastro de Pessoas: Formulário interativo para inserir informações como nome, endereço, telefone, etc., com validação de campos.
+Armazenamento de Dados: Persistência dos dados cadastrados em um banco de dados SQLite local, garantindo a integridade e disponibilidade das informações.
+Visualização de Dados: Listagem e detalhamento dos registros cadastrados, permitindo a consulta e a gestão das informações.
+Interface Interativa: Utilização de componentes Flet como botões, campos de texto, tabelas e caixas de diálogo para uma experiência de usuário rica e intuitiva.
+Aplicativo Desktop: Empacotamento do aplicativo para distribuição em diferentes sistemas operacionais (Windows, macOS, Linux) usando PyInstaller.
+Tecnologias Utilizadas:
 
-* **Tela de Login:** Permite o acesso ao sistema através de credenciais (usuário e senha) para garantir a segurança dos dados.
-* **Cadastro de Pessoas:** Facilita a inserção de novos registros de pessoas, coletando informações como nome, sobrenome, endereço, numero, cidade, estado, cep.
-* **Banco de Dados:** Utiliza o DB Browser (SQLite) para armazenar de forma segura e organizada todos os dados cadastrados pelos usuários.
-* **Interface Intuitiva:** A interface do aplicativo foi projetada para ser fácil de usar, mesmo para usuários com pouco conhecimento técnico.
-* **Desenvolvimento Flet:** Construído com a framework Flet, garantindo uma experiência de desenvolvimento rápida e eficiente.
-
-**Benefícios:**
-
-* **Organização de dados:** Centraliza as informações de pessoas em um único local.
-* **Segurança:** Protege os dados através da autenticação por login e senha.
-* **Facilidade de uso:** Interface intuitiva que facilita a utilização por diferentes perfis de usuários.
-* **Escalabilidade:** Pode ser facilmente expandido para incluir novas funcionalidades e atender a diferentes necessidades.
-
-Este projeto demonstra a capacidade de criar aplicativos web robustos e eficientes utilizando a framework Flet e o banco de dados SQLite.
+Flet: Framework Python para criação de interfaces gráficas multiplataforma.
+SQLite: Banco de dados relacional leve e integrado ao aplicativo.
+DB Browser for SQLite: Ferramenta para gerenciamento e visualização do banco de dados SQLite.
+Pandas: Biblioteca para manipulação e análise de dados, utilizada para formatar e exibir os dados na interface.
+PyInstaller: Utilitário para empacotar o aplicativo Python em um executável único.
